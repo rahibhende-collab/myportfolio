@@ -1,0 +1,7 @@
+.section { padding: 5rem 0; scroll-margin-top: 70px; }
+.container { width: min(1100px, 92%); margin: 0 auto; }
+.title { font-size: clamp(1.7rem, 4vw, 2.3rem); margin-bottom: 2rem; position: relative; padding-bottom: .6rem; }
+.title::after { content: ''; position: absolute; left: 0; bottom: 0; width: 56px; height: 4px; border-radius: 4px; background: var(--gradient); }
+.empty { padding: 1.5rem; border: 1px dashed var(--border); border-radius: var(--radius); color: var(--muted); text-align: center; }
+.reveal { opacity: 0; transform: translateY(24px); transition: opacity .6s ease, transform .6s ease; }
+.visible { opacity: 1; transform: none; }

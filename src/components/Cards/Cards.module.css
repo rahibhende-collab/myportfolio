@@ -1,0 +1,9 @@
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.25rem; }
+.card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.4rem; display: grid; gap: .7rem; align-content: start; backdrop-filter: blur(10px); transition: transform .25s, box-shadow .25s, border-color .25s; }
+.card:hover { transform: translateY(-5px); box-shadow: var(--shadow); border-color: var(--primary); }
+.chips { list-style: none; display: flex; flex-wrap: wrap; gap: .45rem; }
+.chip { font-size: .8rem; padding: .25rem .65rem; border-radius: 999px; background: var(--chip); color: var(--accent); border: 1px solid var(--border); }
+.badge { justify-self: start; font-size: .75rem; padding: .2rem .6rem; border-radius: 999px; background: var(--gradient); color: #fff; font-weight: 600; }
+.muted { color: var(--muted); font-size: .9rem; }
+.link { display: inline-flex; align-items: center; gap: .4rem; color: var(--accent); font-weight: 600; font-size: .9rem; }
+.icon { color: var(--primary); }
